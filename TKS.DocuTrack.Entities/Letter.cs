@@ -1,4 +1,5 @@
 ﻿namespace TKS.DocuTrack.Entities;
-internal class Letter
+
+public class Letter : BaseEntity
 {
 }
