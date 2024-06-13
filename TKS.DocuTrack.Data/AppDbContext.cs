@@ -56,6 +56,7 @@ public class AppDbContext : IdentityDbContext<UserExtended>
 
     //----------------------------------------------------------
 
+    public DbSet<Letter> Letters { get; set; }
     #region SETTINGS DbSets
 
     //public DbSet<OfficeType> OfficeTypes { get; set; }
