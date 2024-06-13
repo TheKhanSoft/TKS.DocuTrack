@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34814.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKS.DocuTrack.Entities", "TKS.DocuTrack.Entities\TKS.DocuTrack.Entities.csproj", "{144DF258-96AF-493A-80FF-F2C50A808743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKS.DocuTrack.Data", "TKS.DocuTrack.Data\TKS.DocuTrack.Data.csproj", "{C1DF08CD-446B-4941-AF09-4494B7711F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKS.DocuTrack.Interfaces", "TKS.DocuTrack.Interfaces\TKS.DocuTrack.Interfaces.csproj", "{20D6FA7F-3B9E-427C-86B5-5D45C9697068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKS.DocuTrack.Services", "TKS.DocuTrack.Services\TKS.DocuTrack.Services.csproj", "{D0060BD5-FE3B-426F-AFA0-5136095C82E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKS.DocuTrack.Shared", "TKS.DocuTrack.Shared\TKS.DocuTrack.Shared.csproj", "{1313C2A8-CEB1-485E-8679-AA55627AC90D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144DF258-96AF-493A-80FF-F2C50A808743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144DF258-96AF-493A-80FF-F2C50A808743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144DF258-96AF-493A-80FF-F2C50A808743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144DF258-96AF-493A-80FF-F2C50A808743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DF08CD-446B-4941-AF09-4494B7711F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DF08CD-446B-4941-AF09-4494B7711F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DF08CD-446B-4941-AF09-4494B7711F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DF08CD-446B-4941-AF09-4494B7711F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D6FA7F-3B9E-427C-86B5-5D45C9697068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D6FA7F-3B9E-427C-86B5-5D45C9697068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D6FA7F-3B9E-427C-86B5-5D45C9697068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D6FA7F-3B9E-427C-86B5-5D45C9697068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0060BD5-FE3B-426F-AFA0-5136095C82E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0060BD5-FE3B-426F-AFA0-5136095C82E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0060BD5-FE3B-426F-AFA0-5136095C82E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0060BD5-FE3B-426F-AFA0-5136095C82E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1313C2A8-CEB1-485E-8679-AA55627AC90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1313C2A8-CEB1-485E-8679-AA55627AC90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1313C2A8-CEB1-485E-8679-AA55627AC90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1313C2A8-CEB1-485E-8679-AA55627AC90D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
